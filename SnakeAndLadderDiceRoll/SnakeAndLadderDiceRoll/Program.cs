@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SnakeAndLadder
+namespace SnakeAndLadderDiceRoll
 {
     class Program
     {
@@ -10,8 +10,14 @@ namespace SnakeAndLadder
         {
             Console.WriteLine("WELCOME..!! Please Enter Your Name.");
             string user1 = Console.ReadLine();
-            int userPosition = startPosition;
-            Console.WriteLine("Your Current Position is:" + userPosition);
+            int rollDice = RollDice();
+            Console.WriteLine("Dice roll:" + rollDice);
+        }
+        static int RollDice()
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(0, 7);
+            return randomNumber;
         }
     }
 }
