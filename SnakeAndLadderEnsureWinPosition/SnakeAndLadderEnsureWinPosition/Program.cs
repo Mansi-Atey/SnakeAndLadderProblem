@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SnakeAndLadderRepeatTillWin
+namespace SnakeAndLadderEnsureWinPosition
 {
     class Program
     {
@@ -9,19 +9,18 @@ namespace SnakeAndLadderRepeatTillWin
         public const int noPlay = 0;
         public const int snake = 1;
         public const int ladder = 2;
-
         static void Main(string[] args)
         {
             Console.WriteLine("WELCOME..!!ENTER YOUR NAME:");
             string user1 = Console.ReadLine();
             int currentUserPosition = startPosition;
-            for (int noOfTimeDiceRolled = 1; currentUserPosition >= 0; noOfTimeDiceRolled++)
+            for (int noOfTimeDiceRolled = 1; currentUserPosition < 100; noOfTimeDiceRolled++)
             {
                 int rollDice = RollDice();
                 Console.WriteLine("You Rolled:-" + rollDice);
                 currentUserPosition = userMovement(rollDice, currentUserPosition);
                 Console.WriteLine("Your position is:-" + currentUserPosition);
-                if (currentUserPosition >= 100)
+                if (currentUserPosition == 100)
                 {
                     Console.WriteLine("GAME OVER");
                     break;
@@ -58,10 +57,19 @@ namespace SnakeAndLadderRepeatTillWin
                     }
                 case ladder:
                     Console.WriteLine("LADDER");
-                    userPosition = userPosition + rolledNumber;
-                    break;
+                    if (userPosition + rolledNumber <= 100)
+                    {
+                        userPosition = userPosition + rolledNumber;
+                        break;
+                    }
+                    else
+                    {
+                        break;
+                    }
             }
             return userPosition;
         }
     }
 }
+    
+
