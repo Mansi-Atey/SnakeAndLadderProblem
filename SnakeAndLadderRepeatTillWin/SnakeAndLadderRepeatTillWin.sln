@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeAndLadderNoPlay", "SnakeAndLadderNoPlay\SnakeAndLadderNoPlay.csproj", "{3104B8CE-F19D-4083-9691-C536F2C4D845}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeAndLadderRepeatTillWin", "SnakeAndLadderRepeatTillWin\SnakeAndLadderRepeatTillWin.csproj", "{94FA294F-0DDF-49CB-8861-A087FB29FF59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3104B8CE-F19D-4083-9691-C536F2C4D845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3104B8CE-F19D-4083-9691-C536F2C4D845}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3104B8CE-F19D-4083-9691-C536F2C4D845}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3104B8CE-F19D-4083-9691-C536F2C4D845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94FA294F-0DDF-49CB-8861-A087FB29FF59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94FA294F-0DDF-49CB-8861-A087FB29FF59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94FA294F-0DDF-49CB-8861-A087FB29FF59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94FA294F-0DDF-49CB-8861-A087FB29FF59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E4B13821-B02D-45F5-950D-D6EC38F42F77}
+		SolutionGuid = {3B7C544C-AF1D-49F0-8E36-6449C99FA1DF}
 	EndGlobalSection
 EndGlobal
