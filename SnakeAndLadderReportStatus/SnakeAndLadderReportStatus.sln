@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeAndLadderEnsureWinPosition", "SnakeAndLadderEnsureWinPosition\SnakeAndLadderEnsureWinPosition.csproj", "{8C7D4D38-F2C6-42BD-A1F6-869110320F0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeAndLadderReportStatus", "SnakeAndLadderReportStatus\SnakeAndLadderReportStatus.csproj", "{6CAD5891-F157-45FF-ACDA-7C5E263EF703}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C7D4D38-F2C6-42BD-A1F6-869110320F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C7D4D38-F2C6-42BD-A1F6-869110320F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C7D4D38-F2C6-42BD-A1F6-869110320F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C7D4D38-F2C6-42BD-A1F6-869110320F0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAD5891-F157-45FF-ACDA-7C5E263EF703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAD5891-F157-45FF-ACDA-7C5E263EF703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAD5891-F157-45FF-ACDA-7C5E263EF703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAD5891-F157-45FF-ACDA-7C5E263EF703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {30FD10A0-A17B-4C8D-A1F8-CE2210D4114D}
+		SolutionGuid = {D3164E51-43B9-4E79-820B-DE09EC310AEB}
 	EndGlobalSection
 EndGlobal
